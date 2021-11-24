@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(244, 252, 255);
+}
+h2{
+   margin-bottom: 10px;
+}
+.parrafo_monedas{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#salir{
+    display: block;
+    padding: 3px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+ul{
+    margin: 20px;
+}

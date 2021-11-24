@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/iconotragaperras.jpg">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="codigo.js"></script>
+<title>Tragaperras</title>
+</head>
+
+<body>
+<h2>Introduce monedas:</h2>
+
+<input id="monedasaIntroducir" type="number" value="0" required>
+<button id="botonIntroducir" type="submit" name="introducir__form" onclick="introducir()" >Introducir</button>
+
+<p class="parrafo_monedas">El número de monedas actual es de:</p>
+<h1 id="monedasRestantes">0</h1>
+<button id="salir" onclick="salir()">Salir</button>
+
+
+<img id="primera__imagen" src="./imagenes/pingu.png">
+<img id="segunda__imagen" src="./imagenes/pingu.png">
+<img id="tercera__imagen" src="./imagenes/pingu.png">
+<img id="palanca" src="./imagenes/palancaUP.png" onclick="accionar()">
+<h2>Historial de movimientos</h2>
+<ul id="historial__movimientos" >
+
+</ul>
+</body>
+
+</html>
